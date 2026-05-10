@@ -19,7 +19,7 @@ The pipeline takes raw historical travel data, processes it for anomalies, and u
 1. **Data Ingestion & Cleaning:** Automated ETL steps using `pandas` to handle missing values, smooth outliers using IQR (Interquartile Range), and aggregate daily distance metrics.
 2. **Feature Engineering:** Incorporation of custom seasonality (weekly, monthly) and national holidays that impact distribution volumes.
 3. **Predictive Modeling:** Model training using `prophet` with dynamic regressors (monthly units).
-4. **Professional Output:** Generates interactive multi-panel visualizations (Matplotlib) and exports highly formatted Excel reports (using `openpyxl`) for downstream Business Intelligence tools.
+4. **Professional Output:** Generates interactive multi-panel visualizations (Matplotlib) and exports highly formatted Excel reports (using `openpyxl`) for downstream Business Intelligence tools.![Forecast Demo Plot](demo_plot.png)
 
 ## 🚀 Key Features
 
